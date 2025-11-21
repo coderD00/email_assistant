@@ -1,0 +1,75 @@
+/* Page layout */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 15px;
+    background-color: #5d89ca;
+    color: #333;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Form fields */
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #cbd1d8;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #fff;
+    transition: 0.2s ease;
+}
+
+/* Hover + Focus */
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 4px rgba(74, 144, 226, 0.4);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    background: #4a90e2;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #357ABD;
+}
+
+/* Generated email */
+pre {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #d9dde2;
+    white-space: pre-wrap;
+    margin-top: 20px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #2c3e50;
+}
